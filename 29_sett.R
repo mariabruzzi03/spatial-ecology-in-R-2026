@@ -31,16 +31,29 @@ plot (matteo,elisa)
 
 #changing point character
 plot (matteo,elisa,pch=19)
+# character exageration
+plot (matteo,elisa,pch=19, cex=2) 
+plot (matteo,elisa,pch=19, cex=0,5)
 
+#changig color
+plot (matteo,elisa,pch=19, cex=2, col="blue") 
 
+#changing the lables
+plot (matteo,elisa,pch=19, cex=2, col="blue", xlab="number of mammals", ylab="number of human deaths") 
 
+#increasing the axis dimension
+plot (matteo,elisa,pch=19, cex=2, col="blue", xlab="number of mammals", ylab="number of human deaths", cex.axis=2)
 
-
-
-
-
-
-
+#long function
+plot (matteo, 
+     elisa, 
+     pch=19, 
+     cex=4, 
+     col="maroon2", 
+     xlab="number of mamals", 
+     ylab="number of human deaths", 
+     cex.axis=2,
+     cex.lab=2)
 
 
 

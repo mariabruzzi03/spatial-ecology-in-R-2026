@@ -11,4 +11,4 @@ in order to import images in Markdown there are two different methods
 
 ## create  a folder with the images and link to the images
 
-<img src="Pics/
+<img src="Pics/DJI_20261002115256_0016_D.JPG>
